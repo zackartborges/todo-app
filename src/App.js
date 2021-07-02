@@ -3,11 +3,9 @@ import ToDoItem from './components/ToDoItem'
 function App() {
   return (
     <div className="todo-list">
-      <ToDoItem />
-      <ToDoItem />
-      <ToDoItem />
-      <ToDoItem />
-      <ToDoItem />
+      <ToDoItem task="Take out dog"/>
+      <ToDoItem task="Feed Mom!"/>
+      <ToDoItem task="Feed Willy"/>
     </div>
   );
 }

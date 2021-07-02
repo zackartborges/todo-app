@@ -1,8 +1,8 @@
-function ToDoItem() {
+function ToDoItem(props) {
   return (
     <div className="todo-item">
       <input type="checkbox" />
-        <p>Text Here</p>
+        <p>{props.task}</p>
     </div>
   )
 }
