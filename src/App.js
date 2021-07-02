@@ -5,6 +5,9 @@ function App() {
     <div className="todo-list">
       <ToDoItem />
       <ToDoItem />
+      <ToDoItem />
+      <ToDoItem />
+      <ToDoItem />
     </div>
   );
 }
