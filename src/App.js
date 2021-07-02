@@ -1,15 +1,10 @@
 import './App.css';
-
+import ToDoItem from './components/ToDoItem'
 function App() {
   return (
-    <div className="App">
-      <h1>Todo-App</h1>
-      <input type="checkbox" />
-      <p>Text Here</p>
-      <input type="checkbox" />
-      <p>Text Here</p>
-      <input type="checkbox" />
-      <p>Text Here</p>
+    <div className="todo-list">
+      <ToDoItem />
+      <ToDoItem />
     </div>
   );
 }
