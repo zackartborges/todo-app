@@ -40,7 +40,7 @@ class App extends Component {
   }
   render() {
         const todoTitles = this.state.todosData.map(todoItem => 
-           <ToDoItem key={todoItem.id} task={todoItem.text} />
+           <ToDoItem key={todoItem.id} task={todoItem.text} item={todoItem}/>
         )
         return (
           <div className="todo-list">
