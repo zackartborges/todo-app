@@ -17,7 +17,7 @@ const todosData = [
   {
       id: 4,
       text: "Mow lawn",
-      completed: true
+      completed: false
   },
   {
       id: 5,
