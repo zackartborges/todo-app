@@ -35,7 +35,7 @@ class App extends Component {
         return (
           <div className="todo-list">
             {todoItems}
-            <AddToDoItem />
+            <AddToDoItem handleChange={this.handleChange}/>
           </div>
   );
 }

@@ -2,7 +2,11 @@ function AddToDoItem(props) {
   
   return (
     <div className="add-todo-item">
-        <p>Add ToDo Item</p>
+        <input type="text" 
+        // value={this.state.newTodo} 
+        // onChange={this.handleChange} 
+        placeholder="Add Todo">
+        </input>
     </div>
   )
 }
