@@ -46,7 +46,7 @@ class App extends Component {
       todos: [
         ...this.state.todos,
         {
-          id: undefined,
+          id: this.state.todos.length + 1,
           text: name,
           completed: false,
         },
