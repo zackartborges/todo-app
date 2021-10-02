@@ -4,7 +4,7 @@ function AddToDoItem(props) {
   const [name, setName] = useState(props.task);
   return (
     <div className="add-todo-item">
-      <div style={{ margin: "0 0px 0 0" }}>
+      <div style={{ margin: "0 0 0 15px" }}>
         <input
           style={{ margin: "0 15px 0 0" }}
           type="text"
